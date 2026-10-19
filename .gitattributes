@@ -1,0 +1,24 @@
+# ============================================================================
+# Smart City Cluj-Napoca — Repository Behavioral Attributes Ledger
+# ============================================================================
+
+# Global Line Ending Normalization
+# Automatically handles text normalization across Windows, Mac, and Linux environments
+* text=auto
+
+# Enforce LF (Linux) Line Endings for Shell Scripts to Ensure Container Stability
+# This guarantees that scripts executed inside Docker or Linux CI hosts will never crash due to CRLF mutations
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Enforce CRLF/Native Endings for Windows Automation Scripts
+*.ps1 text eol=crlf
+
+# GitHub Linguist Statistics Exclusions
+# Marks utility infrastructure and configuration assets as documentation/vendor layer
+# This ensures that GitHub correctly classifies Python as the primary language of the codebase
+scripts/* linguist-documentation=true
+ai_tests/* linguist-documentation=true
+tests/* linguist-documentation=true
+*.toml linguist-documentation=true
+*.yaml linguist-documentation=true
