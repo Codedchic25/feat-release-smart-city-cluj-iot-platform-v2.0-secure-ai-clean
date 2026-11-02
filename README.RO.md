@@ -3,7 +3,29 @@
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat&logo=opensourceinitiative&logoColor=white)
+
 ---
+
+| Specificație | Detalii Tehnice |
+| :--- | :--- |
+| **Tip proiect** | Portofoliu de inginerie și demonstrație aplicată de AI/ML |
+| **Limbaj principal** | Python 3.12 |
+| **Interfață** | Streamlit |
+| **Bază de date** | SQLite |
+| **Inferență AI** | Groq Cloud API cu `openai/gpt-oss-20b` |
+
+---
+
+| Specificație | Detalii Tehnice |
+| :--- | :--- |
+| **Tip proiect** | Portofoliu de inginerie și demonstrație aplicată de AI/ML |
+| **Limbaj principal** | Python 3.12 |
+| **Interfață** | Streamlit |
+| **Bază de date** | SQLite |
+| **Inferență AI** | Groq Cloud API cu `openai/gpt-oss-20b` |
+
+---
+
 
 ### 🌐 Live Production Access (Recruiter & Auditor Invitation)
 
